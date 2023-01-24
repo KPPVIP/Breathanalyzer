@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('./fonts/digital_counter_7_italic.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+#result {
+    position: absolute;
+    font-family: "Digital";
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 6.3%;
+    margin-left: 10.3%;
+    color: #282828;
+}
+
+
+#speed {
+    position: absolute;
+    font-family: "Digital";
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 6.3%;
+    margin-left: 10.3%;
+    color: #282828;
+}
+
+#mgprol {
+    position: absolute;
+    font-family: "Digital";
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 6.3%;
+    margin-left: 13.7%;
+    color: #282828;
+}
+
+#alko {
+    display: none;
+    height: 460px;
+    width: 350px;
+    margin-left: 75%;
+    margin-top: 20%;
+    background: url("Alkotester.png");
+}
